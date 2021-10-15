@@ -1,7 +1,11 @@
 module.exports = {
     ci: {
         collect: {
-            url: ['https://kingandqueen.es/'],
+            url: [
+                'https://kingandqueen.es/',
+                'https://kingandqueen.es/mujer',
+                'https://kingandqueen.es/hombre'
+            ],
         },
         upload: {
             target: 'lhci',
