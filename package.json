@@ -1,0 +1,28 @@
+{
+  "name": "light",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lhci:audit": "concurrently \"npm run lhci:server\" \"lhci autorun\"",
+    "lhci:wizard": "lhci wizard",
+    "lhci:server": "lhci server --storage.storageMethod=sql --storage.sqlDialect=sqlite --storage.sqlDatabasePath=./db.sql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joseminosa/lighthouse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joseminosa/lighthouse/issues"
+  },
+  "homepage": "https://github.com/Joseminosa/lighthouse#readme",
+  "devDependencies": {
+    "@lhci/cli": "^0.8.2",
+    "@lhci/server": "^0.8.2",
+    "concurrently": "^6.3.0",
+    "sqlite3": "^5.0.2"
+  }
+}
