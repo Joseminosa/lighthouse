@@ -3,5 +3,7 @@
 # earlier versions of Drupal are tracked in `community/PHP/`
 
 .idea
+.lighthouseci
 node_modules
+db.sql
 
