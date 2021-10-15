@@ -4,7 +4,8 @@ module.exports = {
             url: [
                 'https://kingandqueen.es/',
                 'https://kingandqueen.es/mujer',
-                'https://kingandqueen.es/hombre'
+                'https://kingandqueen.es/hombre',
+                'https://kingandqueen.es/rebajas'
             ],
         },
         upload: {
