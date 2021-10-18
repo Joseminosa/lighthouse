@@ -7,7 +7,7 @@ module.exports = {
                 'https://kingandqueen.es/hombre',
                 'https://kingandqueen.es/rebajas'
             ],
-            numberOfRuns: 1,
+            numberOfRuns: 3,
         },
         upload: {
             target: 'lhci',
