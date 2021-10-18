@@ -7,6 +7,9 @@ module.exports = {
                 'https://kingandqueen.es/hombre',
                 'https://kingandqueen.es/rebajas'
             ],
+            settings: {
+                onlyCategories: ['accessibility']
+            }
         },
         upload: {
             target: 'lhci',
