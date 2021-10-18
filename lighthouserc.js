@@ -9,7 +9,8 @@ module.exports = {
             ],
             settings: {
                 onlyCategories: ['accessibility']
-            }
+            },
+            numberOfRuns: 1,
         },
         upload: {
             target: 'lhci',
