@@ -13,9 +13,9 @@ module.exports = {
             numberOfRuns: 1,
         },
         upload: {
-            target: 'lhci',
+            target: 'kingandqueen',
             serverBaseUrl: 'http://localhost:9001',
-            token: '2023d290-5fe4-4546-8722-3f9380c18de5', // the build token provider by the wizard. Could also use LHCI_TOKEN variable instead
+            token: '7a44d893-c5e4-41d4-a5e5-0ec274664fad', // the build token provider by the wizard. Could also use LHCI_TOKEN variable instead
         },
     },
 };
